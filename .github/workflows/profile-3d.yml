@@ -1,0 +1,49 @@
+name: GitHub Profile 3D Contrib
+
+on:
+  schedule:
+    - cron: "0 18 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: yoshi389111/github-profile-3d-contrib@latest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+
+      - name: Hide empty star and fork metrics
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import re
+
+          pattern = re.compile(
+              r'(<text style="font-size: 24px;" x="394" y="830" text-anchor="start" class="fill-fg">contributions</text>)'
+              r'<g transform="translate\(608, 802\), scale\(2\)">.*?</g>'
+              r'<text style="font-size: 32px; font-weight: bold;" x="650" y="830" text-anchor="start" class="fill-fg">0<title>0</title></text>'
+              r'<g transform="translate\(736, 802\), scale\(2\)">.*?</g>'
+              r'<text style="font-size: 32px; font-weight: bold;" x="772" y="830" text-anchor="start" class="fill-fg">0<title>0</title></text>',
+              re.DOTALL,
+          )
+
+          for svg in Path("profile-3d-contrib").glob("*.svg"):
+              text = svg.read_text(encoding="utf-8")
+              svg.write_text(pattern.sub(r"\1", text), encoding="utf-8")
+          PY
+
+      - name: Commit & Push
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add -A
+          git diff --cached --quiet || git commit -m "README 수정"
+          git push

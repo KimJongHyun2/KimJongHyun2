@@ -1,29 +1,69 @@
-<div align= "center">
-    <img src="https://capsule-render.vercel.app/api?type=waving&color=8bdee9&height=120&text=Jong's%20github&animation=&fontColor=000000&fontSize=40" />
-    </div>
-    <div style="text-align: left;"> 
-    <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;">  </h2>  
-    <div style="font-weight: 700; font-size: 15px; text-align: left; color: #282d33;"> 안녕하세요:) </div> 
-    </div>
-    <div style="text-align: left;">
-    <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🌱 Tech Stacks </h2> <br> 
-    <div style="margin: ; text-align: left;" "text-align: left;"> <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=white">
-          <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=Android&logoColor=white">
-          <img src="https://img.shields.io/badge/Javascript-F7DF1E?style=for-the-badge&logo=Javascript&logoColor=white">
-          <img src="https://img.shields.io/badge/Github-181717?style=for-the-badge&logo=Github&logoColor=white">
-          <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white">
-          <br/><img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=Notion&logoColor=white">
-          <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white">
-          <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=Discord&logoColor=white">
-          <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=Java&logoColor=white">
-          </div>
-    </div>
-    <div style="text-align: left;"> 
-    <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;">💻 Algorithm (C++)</h2>
+# Hi, I'm Kim Jong Hyun 👋
 
-<div style="margin-top: 15px;">
-<a href="https://solved.ac/poreer0597">
-<img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=poreer0597">
+### Frontend Developer
+
+React와 TypeScript를 중심으로 웹 서비스를 만들고 있습니다.  
+최근에는 **Frontend × AI** 영역의 프로젝트를 탐구하고 있습니다.
+
+`Frontend` `React` `TypeScript` `AI`
+
+<br/>
+
+<a href="https://github.com/KimJongHyun2">
+  <img src="https://img.shields.io/badge/GitHub-KimJongHyun2-181717?style=flat-square&logo=github&logoColor=white"/>
 </a>
-    </div>
-    
+<a href="https://app.notion.com/p/3d070a7c074781f8ac86d0b38c5a8797">
+  <img src="https://img.shields.io/badge/Portfolio-Notion-000000?style=flat-square&logo=notion&logoColor=white"/>
+</a>
+
+<br/>
+
+## 🗂️ Selected Repositories
+
+| Repository | About | Stack | |
+| --- | --- | --- | :---: |
+| **MIRUM** | 대학생 팀 프로젝트를 위한 통합 협업 플랫폼 | `React` `TypeScript` `Vite` | [↗](https://github.com/Hanshin-OSS-Hub/capstone25-mirum) |
+| **Context Bridge** | 사용자 맥락을 선별해 AI 응답에 연결하는 서비스 | `React` `Gemini` | [↗](https://github.com/ABC26-SUMMER/context_bridge) |
+| **Harnest** | Goal-oriented AI Harness | `React` `AI Agent` | [↗](https://github.com/NiceTry3675/OSS_Harnest) |
+| **Evacuation Simulator** | Minecraft × AI × IoT 재난 대피 시뮬레이션 | `MediaPipe` `MQTT` `Minecraft` | [↗](https://github.com/ABC-Hackathon25/evacuation-simulator) |
+| **얼마야** | OCR 기반 메뉴별 정산 웹 서비스 | `React` `TypeScript` `Supabase` | [↗](https://github.com/KimJongHyun2/ulmaya) |
+
+<br/>
+
+## 🧰 Toolbox
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=react,ts,js,vite,tailwind,git,github" />
+
+<br/><br/>
+
+<sub>
+React · TypeScript · JavaScript · Vite · Tailwind CSS · Git · GitHub
+</sub>
+
+</div>
+
+<br/>
+
+<details>
+<summary><b>🌱 GitHub Activity</b></summary>
+
+<br/>
+
+<div align="center">
+
+<img
+  src="./profile-3d-contrib/profile-green-animate.svg"
+  width="85%"
+/>
+
+</div>
+
+</details>
+
+<br/>
+
+<div align="center">
+  <sub>Frontend · React · TypeScript · AI</sub>
+</div>
